@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" lang="en" data-theme="light" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/dist/output.css">
+  <title>Home</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  
+
+  <div class="bg-gray-900 p-4 flex items-center justify-between navbar fixed top-0 w-full z-50">
+
+    <!-- Brand -->
+    <div class="text-white">
+      <a class="font-Judson text-xl sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">A l t a r m i z</a>
+    </div>
+
+  
+      <div class="navbar-end lg:hidden md:hidden  ">
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn2 btn-ghost btn-circle flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a  href="https://wa.me/+62817880488"><button class="text-black  cursor-pointer" onclick="my_modal_4.showModal()">Book Now!!</a></li>
+            <li><a href="/src/Dashboard/index.html"  class="btn-ghost text-md text-black">Dashboard</a></li>
+            <li><a href="/src/HomePage/gallery.html" class="btn-ghost text-md text-black">Gallery</a></li>
+            <li><a href="/src/HomePage/kategori/category.html" class="btn-ghost text-md text-black">Category</a></li>
+          </ul>
+        </div>
+      </div>
+  
+    <!-- Navigation Links -->
+    <div class="hidden md:flex justify-center space-x-6 font-Poppins">
+      <a href="/src/Dashboard/index.html"  class="btn-ghost text-md text-white">Dashboard</a>
+      <a href="/src/HomePage/gallery.html" class="btn-ghost text-md text-white">Gallery</a>
+      <a href="/src/HomePage/kategori/category.html"  class="btn-ghost text-md text-white">Category</a>
+    </div>
+    <div class="hidden  sm:block "> 
+      <a href="https://wa.me/+62817880488"><button class="btn md:btn-sm lg:btn-md xs:btn-xs space-x-4 cursor-pointer" onclick="my_modal_3.showModal()">Book Now!!</button></a>
+  </div>
+  
+  
+  
+  
+        <dialog id="my_modal_3" class="modal">
+          <div class="modal-box transition delay-700 ">
+            <form method="dialog">
+              <button class="btn btn-sm btn-circle btn-ghost" style="margin-left: 27rem;">✕</button>
+            </form>
+            <div class="flex justify-center overflow-hidden">
+              <img src="/components/image/qrcode.jpg" alt="" class="h-40 w-auto">
+          </div>
+          <p class="flex justify-center text-red-600">scan this if button doesn't work!!</p>
+        </div>
+        </dialog>
+
+        <dialog id="my_modal_4" class="modal">
+          <div class="modal-box transition delay-700 p-4 sm:p-6 md:p-8 lg:p-10">
+              <form method="dialog" class="absolute top-4 right-4">
+                  <button class="btn btn-sm btn-circle btn-ghost">✕</button>
+              </form>
+              <div class="flex justify-center overflow-hidden">
+                  <img src="/components/image/qrcode.jpg" alt="" class="h-40 sm:h-48 md:h-56 lg:h-64 w-auto">
+              </div>
+              <p class="flex justify-center text-red-600">Scan this if the button doesn't work!!</p>
+          </div>
+      </dialog>
+      
+    </div>
+</div>
+
+
+<!-- Gallery -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 mt-24 overflow-visible">
+  <div class="grid gap-4">
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+      </div>
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+      </div>
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+      </div>
+  </div>
+  <div class="grid gap-4">
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+      </div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+      </div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+      </div>
+  </div>
+  <div class="grid gap-4">
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+      </div>
+
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+      </div>
+
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+      </div>
+  </div>
+  <div class="grid gap-4">
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+      </div>
+      
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+      </div>
+
+      <div class="transition-transform duration-200 ease-in-out transform hover:scale-105 overflow-hidden">
+          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+      </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+<style>
+  .btn2{
+    color: white;
+  }
+  .btn-ghost {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .btn-ghost:hover {
+    color: #000000; /* Change to the desired color on hover */
+  }
+
+  .btn-ghost::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Change to the desired color for the underline */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-ghost:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  
+     /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #3b3b3b #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    overflow: hidden;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  .navbar{
+    box-shadow: -2px 9px 12px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: -2px 9px 12px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: -2px 9px 12px 0px rgba(0,0,0,0.37);
+  }
+</style>
